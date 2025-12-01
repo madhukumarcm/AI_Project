@@ -1,0 +1,78 @@
+    Test Case ID: TC-001
+    Description: Testing login with correct credentials
+    Steps:
+    1. Open the login page
+    2. Enter the correct email 
+    3. Enter the correct password
+    4. Click on login button
+    Expected Result: User is redirected to the dashboard
+
+    Test Case ID: TC-002
+    Description: Testing login with incorrect email
+    Steps:
+    1. Open the login page
+    2. Enter the incorrect email 
+    3. Enter the correct password
+    4. Click on login button
+    Expected Result: An error message is displayed
+
+    Test Case ID: TC-003
+    Description: Testing login with incorrect password
+    Steps:
+    1. Open the login page
+    2. Enter the correct email 
+    3. Enter the incorrect password
+    4. Click on login button
+    Expected Result: An error message is displayed
+
+    Test Case ID: TC-004
+    Description: Testing login with both incorrect email and password
+    Steps:
+    1. Open the login page
+    2. Enter the incorrect email 
+    3. Enter the incorrect password
+    4. Click on login button
+    Expected Result: An error message is displayed
+
+    Test Case ID: TC-005
+    Description: Testing login with empty email field
+    Steps:
+    1. Open the login page
+    2. Leave the email field empty 
+    3. Enter the password
+    4. Click on login button
+    Expected Result: An error message is displayed
+
+    Test Case ID: TC-006
+    Description: Testing login with empty password field
+    Steps:
+    1. Open the login page
+    2. Enter the email 
+    3. Leave password field empty
+    4. Click on login button
+    Expected Result: An error message is displayed
+
+    Test Case ID: TC-007
+    Description: Testing login with both email and password fields empty
+    Steps:
+    1. Open the login page
+    2. Leave both email and password fields empty
+    3. Click on login button
+    Expected Result: An error message is displayed
+
+    Test Case ID: TC-008
+    Description: Testing login with valid email format
+    Steps:
+    1. Open the login page
+    2. Enter an email not in a valid format 
+    3. Enter the password 
+    4. Click on login button
+    Expected Result: An error message is displayed about the invalid email format
+
+    Test Case ID: TC-009
+    Description: Testing login after several failed attempts
+    Steps:
+    1. Open the login page
+    2. Enter incorrect credentials multiple times 
+    3. Observe result after several failed attempts
+    Expected Result: User account should get locked or captcha should be displayed to prove user is not a bot.

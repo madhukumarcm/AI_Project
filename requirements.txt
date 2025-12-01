@@ -1,0 +1,10 @@
+langchain
+langchain_openai
+langchain_community
+langchain_classic
+openai
+python-dotenv
+streamlit
+PyPDF2
+scikit-learn
+langchain.text_splitter'
